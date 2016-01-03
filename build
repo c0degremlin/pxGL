@@ -1,0 +1,3 @@
+clear
+g++ -std=c++11 -Wall -Wextra -o ./bin/main main.cpp graphics.cpp helper.cpp sstream.cpp shader.cpp sprite.cpp texture.cpp -lGL -lGLU -lGLEW -lglfw3 -lX11 -lXxf86vm -lXrandr -lpthread -lXi -ldl -lXinerama -lXcursor -lrt -lm -lSOIL
+echo "Done."
